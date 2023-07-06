@@ -108,4 +108,4 @@ func createItem(w http.ResponseWriter, r *http.Request) {
 }
 
 // curl command for sending json request to server
-// curl -X POST -H "Content-Type: application/json" -d "{\"name\": \"ethernet cable\", \"quantity\": 15}" http://localhost:8000/items
+// curl -X POST -H "Content-Type: application/json" -d "{\"name\": \"Item Name\", \"quantity\": 1}" http://localhost:8000/items
