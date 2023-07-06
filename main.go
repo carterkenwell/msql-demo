@@ -102,7 +102,7 @@ func createItem(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// some json shit chatGPT told me to put in here idk
+	// some json stuff chatGPT told me to put in here to resolve an error I couldn't figure out
 	w.Header().Set("Content-Type", "application/json")
 	w.Write(jsonItem)
 }
